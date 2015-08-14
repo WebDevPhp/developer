@@ -1,0 +1,245 @@
+/* custom css */
+.form-div{
+	margin: auto;
+    position: relative;
+    width: 35%;
+	background: none repeat scroll 0 0 #ffffff;
+    border-radius: 5px;
+	padding:20px;
+}
+.form-div label.control-label{
+	color:#848484;
+    font-family: "Roboto Slab",serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 5px 4px 0;
+    text-align: left;
+    width: 100%;
+}
+.form-div .form-control{
+	display: inline-block;
+}
+
+.form-div .input_main { position:relative; }
+
+/* #login_usr_verify {
+	float: right;
+	height: 16px;
+	right:10px;
+	position: absolute;
+	top:43px;
+	width: 17px;
+	display:none;
+}
+#login_pass_verify {
+	float: right;
+	height: 16px;
+	right:10px;
+	position: absolute;
+	top:43px;
+	width: 17px;
+	display:none;
+} */
+.warning {
+  border: 1px solid;
+  color: #ff0000;
+  display: none;
+  font-size: 15px;
+  margin: 0 auto 15px;
+  padding: 3px 14px;
+  text-align: left;
+  width: 35%;
+}
+.terms-content{
+	color:#FFF;
+}
+.lead .btn-lg{
+	width:100%;
+	margin:10px 0;
+	background: #1aaeca; /* Old browsers */
+	background: -moz-linear-gradient(top,  #1aaeca 6%, #295474 98%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(6%,#1aaeca), color-stop(98%,#295474)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #1aaeca 6%,#295474 98%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #1aaeca 6%,#295474 98%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #1aaeca 6%,#295474 98%); /* IE10+ */
+	background: linear-gradient(to bottom,  #1aaeca 6%,#295474 98%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1aaeca', endColorstr='#295474',GradientType=0 ); /* IE6-9 */
+	color:#fff;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.lead .btn-lg:hover{
+	background: #295474; /* Old browsers */
+	background: -moz-linear-gradient(top,  #295474 0%, #1aaeca 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#295474), color-stop(100%,#1aaeca)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #295474 0%,#1aaeca 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #295474 0%,#1aaeca 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #295474 0%,#1aaeca 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #295474 0%,#1aaeca 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#295474', endColorstr='#1aaeca',GradientType=0 ); /* IE6-9 */
+}
+
+.register-container .message { color:red; }
+.register-container  .topmsg h1.first{ width:49%; float:left; }
+.register-container  .topmsg h1.second { 
+	color: rgb(70, 208, 82);
+    float: right;
+    text-align: right;
+    width: 49%;
+}
+
+.forget_input {
+    margin: 10px 0 10px;
+    padding: 8px 7px;
+    width: 100%;
+}
+.newmessagetrue { display:block; color:#63c282; }
+.newmessagefalse { display:block; }
+
+#ui-id-1.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content {
+	display: block;
+	left: 808px;
+    text-align: left;
+    top: 543px;
+    width: 470px;
+}
+#ui-id-1.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content li:hover{
+	background:#dddddd;
+}
+#upload-file-container {
+   background: url(../images/subir-logo.jpg) no-repeat;
+   height: 100px;
+}
+
+#upload-file-container input {
+	filter: alpha(opacity=0);
+	opacity: 0;
+	padding: 38px 0;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	left: 0;
+	cursor:pointer;
+	width:145px;
+}
+.inner.cover .login_message {
+    color: #76b449;
+    margin-top: 0;
+    padding-top: 0;
+	font-size:20px;
+}
+.inner.cover .login_d {
+    color: #76b449;
+    font-size: 17px;
+    margin-top: 0;
+}
+.note {padding:10px 0 0; color:#fff; font-size:16px; font-style:italic;}
+ /* MAY 25,2015 */
+.detail-edit-row {
+/* background: rgba(0, 0, 0, 0) url("../images/slide-4.jpg") no-repeat fixed center top / cover ; */
+min-height: 500px;
+padding: 40px 0 50px;
+}
+.editable-text label {
+  color: #1aaeca;
+}
+.proposal-submit {
+background: #fff none repeat scroll 0 0;
+border-radius: 100px;
+color: #1aaeca;
+font-size: 9px;
+font-weight: 500;
+letter-spacing: 1px;
+margin-left: 10px;
+padding: 4px 15px;
+text-transform: uppercase;
+border: medium none;
+}
+.Propuesta-detail-row .editable-text{
+	background:none repeat scroll 0 0 rgba(26, 174, 202, 0.20);
+    padding: 10px;
+	position:relative;
+   /*  min-height: 53px; */
+}
+h2 .msg_area{
+	color:red;
+	font-style:italic;
+	font-size:25px;
+}
+.tab-btns.highlight {
+	background: #1AAECA;
+	 color: #FFF;
+}
+#upload-proposal-bg{overflow:hidden; cursor:pointer;}
+#upload-proposal-bg input#proposal_bg{
+	background:transparent;
+	opacity:0;
+	cursor:pointer !important;
+	padding: 10px 0;
+	position: relative;
+	left: -107px;
+}
+
+.ceo_profile_pic{
+	border-radius: 65px;
+	overflow: hidden;
+	width: 80px;
+	height: 80px;
+	background-size: cover !important;
+	background-position: center !important;
+}
+.msg_area{
+color: green;
+font-size: 19px;
+text-transform:uppercase;
+}
+.detail-tab-btns {
+  background: none repeat scroll 0 0 #f7f7f7;
+  border: 1px solid #dcdcdc;
+  border-radius: 3px;
+  color: #474747;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 30px;
+  margin:4px 2px;
+  padding: 0 12px;
+}
+.account img{
+	border-radius: 100px;
+	float: left;
+	margin-right: 5px;
+	overflow: hidden;
+	width: 30px;
+	height:30px;
+}
+p.editable-text .proposal_description {
+	text-align: left;
+	width: 100%;
+	color: #b1b1b1;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 22px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+    font-family: "Roboto",sans-serif;
+}
+.noscrollbars{
+	/* width:100%; */
+}
+.is-disabled {
+	opacity: .5;
+	position: relative;
+	pointer-events:none;
+}
+.detail-tab-btns.highlight{
+	background: #1AAECA;
+	color: #FFF;
+  }
+  
+ /*******************/
+
+  
+  
+  
+  
